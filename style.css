@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bogo-container {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #ff3b3b;
+    margin-bottom: 20px;
+}
+
+.bundle-option {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.bundle-option input[type="radio"] {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.bundle-option label {
+    display: block;
+    margin-left: 25px;
+}
+
+.option-header1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.option-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount-tag {
+    font-size: 12px;
+    background-color: #ff3b3b;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+.popular-tag {
+    font-size: 12px;
+    background-color: #ff7f00;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+.option-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+.original-price {
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #999;
+}
+
+
+
+
+
+
+
+.delivery-info {
+    margin-top: 15px;
+    color: #ff3b3b;
+    font-weight: bold;
+}
+
+.total {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.add-to-cart {
+    display: block;
+    width: 100%;
+    background-color: #ff3b3b;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.add-to-cart:hover {
+    background-color: #e63232;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #999;
+    text-align: right;
+}
+.red{
+    font-size: 12px;
+    background-color:red;
+}
+
+.hidden1,.hidden2,.hidden3{
+    display:none;
+}
+.dv1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.hash{
+    font-size: 9px;
+}
